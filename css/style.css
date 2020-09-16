@@ -1,0 +1,116 @@
+@media (min-width: 671px) {
+  header {
+    height: 100px;
+    padding: 0 0;
+  }
+  .header-logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    padding: 30px 160px;
+  }
+  ul {
+    padding: 34px 160px;
+    list-style-type: none;
+  }
+  li {
+    float: right;
+    padding: 0 30px;
+    font-weight: bold;
+  }
+  .top-picture {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+  }
+  .top-picture h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 40px;
+    line-height: 1.5em;
+  }
+  .top-picture p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    line-height: 1.5em;
+  }
+  .top-picture .br {
+    display: none;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container p {
+    margin: 0;
+  }
+  .whats-this img {
+    width: 500px;
+  }
+  .what {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .contents {
+    width: 350px;
+    margin: 0 30px;
+  }
+  .contents img {
+    width: 100%;
+  }
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form p {
+    margin: 0;
+  }
+  .mail {
+    text-align: left;
+    width: 400px;
+    height: 36px;
+    border-radius: 18px;
+  }
+  .btn {
+    margin: 20px 0;
+    padding: 10px 60px;
+    background-color: #ff5e00;
+    border: none;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */

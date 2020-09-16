@@ -1,0 +1,119 @@
+@media(min-width: 671px) {
+
+header{
+    height: 100px;
+    padding: 0 0;
+}
+
+.header-logo {
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    padding: 30px 160px;
+}
+
+ul{
+    padding: 34px 160px;
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.top-picture{
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    
+    h1{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 40px;
+        line-height: 1.5em;
+    }
+
+    p{
+        
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        line-height: 1.5em;
+    }
+
+    
+    .br{
+        display: none;
+    }
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    p {
+        margin: 0;
+    }
+    
+}
+
+.whats-this img{
+    width: 500px;
+}
+
+.what {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.contents {
+    width: 350px;
+    margin: 0 30px;
+    img {
+        width: 100%;
+    }
+    
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin: 0;
+    }
+}
+
+.mail {
+    text-align: left;
+    width: 400px;
+    height: 36px;
+    border-radius: 18px;
+    
+}
+
+.btn {
+    margin: 20px 0;
+    padding: 10px 60px;
+    background-color:  #ff5e00;
+    border: none;
+    color: white;
+}
+
+}
