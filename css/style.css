@@ -18,6 +18,10 @@
     padding: 0 30px;
     font-weight: bold;
   }
+  li a {
+    text-decoration: none;
+    color: black;
+  }
   .top-picture {
     position: relative;
     font-weight: bold;
